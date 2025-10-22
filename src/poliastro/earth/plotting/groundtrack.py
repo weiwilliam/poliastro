@@ -252,4 +252,4 @@ class GroundtrackPlotter:
         self.add_trace(pos_trace)
 
         # Return figure
-        return self.fig
+        return self.fig, gnd_trace
